@@ -1,0 +1,17 @@
+@import "./normalize.scss";
+
+$fontFamily: "Inter", sans-serif;
+$fontSize: 16px;
+
+body {
+  background-color: #151518;
+  font-family: $fontFamily;
+  color: #fff;
+  font-size: $fontSize;
+}
+
+input,
+button {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+}
